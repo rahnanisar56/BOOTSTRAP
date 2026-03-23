@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Company's Support Page</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <div id = "accordion">
+            <div class = "card">
+               <div class = "card-header">
+                  <a class = "card-link" data-toggle = "collapse" href = "#collapseOne">
+                     1. What services does your company provide?
+                  </a>
+               </div>
+               <div id = "collapseOne" class = "collapse" data-parent = "#accordion">
+                  <div class = "card-body">We offer a range of services including product sales, customer support, and maintenance solutions tailored to your needs.</div>
+               </div>
+            </div>
+            <div class = "card">
+               <div class = "card-header">
+                  <a class = "collapsed card-link" data-toggle = "collapse" href = "#collapseTwo">
+                    2. What are your working hours?
+                  </a>
+               </div>
+               <div id = "collapseTwo" class = "collapse" data-parent = "#accordion">
+                  <div class = "card-body">Our support team is available Monday to Saturday from 9:00 AM to 6:00 PM.</div>
+               </div>
+            </div>
+            <div class = "card">
+               <div class = "card-header">
+                  <a class = "collapsed card-link" data-toggle = "collapse" href = "#collapseThree">
+                    3. How do I track my order?
+                  </a>
+               </div>
+               <div id = "collapseThree" class = "collapse" data-parent = "#accordion">
+                  <div class = "card-body">After placing an order, you will receive a tracking ID via email which can be used to check the delivery status.</div>
+               </div>
+            </div>
+    </div>
+    <br>
+    <h2 style="text-align: center;">Customer Support Team</h2><br>
+    <div class="card-deck ">
+    <div class="card bg-info">
+    <div class="card-body">
+      <h3 class="card-text">Soorya</h3>
+      <p class="card-text">Technical Support</p>
+      <div class ="dropdown">
+         <button type="button" class="btn btn-dark dropdown-toggle" data-toggle="dropdown">Quick Actions</button>
+         <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Call</a>
+            <a class="dropdown-item" href="#">Email</a>
+            <a class="dropdown-item" href="#">Message</a>
+         </div>
+      </div>
+    </div>
+  </div>
+  <div class="card bg-info">
+    <div class="card-body">
+      <h3 class="card-text">Athul</h3>
+      <p class="card-text">Customer Care Executive</p>
+      <div class ="dropdown">
+         <button type="button" class="btn btn-dark dropdown-toggle" data-toggle="dropdown">Quick Actions</button>
+         <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Call</a>
+            <a class="dropdown-item" href="#">Email</a>
+            <a class="dropdown-item" href="#">Message</a>
+         </div>
+      </div>
+    </div>
+  </div>
+  <div class="card bg-info">
+    <div class="card-body">
+      <h3 class="card-text">Akash</h3>
+      <p class="card-text">Support Specialist</p>
+      <div class ="dropdown">
+         <button type="button" class="btn btn-dark dropdown-toggle" data-toggle="dropdown">Quick Actions</button>
+         <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Call</a>
+            <a class="dropdown-item" href="#">Email</a>
+            <a class="dropdown-item" href="#">Message</a>
+         </div>
+      </div>
+    </div>
+  </div>
+  </div>
+</body>
+</html>
